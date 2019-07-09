@@ -10,14 +10,33 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 413,
+                    "y": 295,
+                    "uniqueID": 846989,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 2237,
-                    "y": 318.5,
+                    "x": 963,
+                    "y": 182,
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 846989
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
